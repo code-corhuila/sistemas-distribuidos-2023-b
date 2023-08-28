@@ -1,0 +1,11 @@
+Arquitectura***
+SOLID
+API
+===============
+*Escalable
+*Concurencia
+*Tolerancia al fallo
+*Consistente
+*Mantenible (Reto)
+*Acoplamiento
+================
