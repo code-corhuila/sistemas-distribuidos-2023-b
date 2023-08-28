@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T12:07:46.000Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="pUZVHUC2ZMbbaPyFVT9v" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T12:24:47.292Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Q4InKI89LHkqITNGj4ra" version="21.6.9" type="github">
   <diagram name="Página-1" id="YggAasTu_5IIFEoiFt_R">
-    <mxGraphModel dx="765" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="440" dy="244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,6 +78,15 @@
         </mxCell>
         <mxCell id="hIM_Yc48U5NnjwSIPtRP-29" value="MongoAtlas&lt;br&gt;DBeaver&lt;br&gt;Workbench&lt;br&gt;SQLYog&lt;br&gt;PGAdmin&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFD503;" vertex="1" parent="1">
           <mxGeometry x="598" y="230" width="70" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="hIM_Yc48U5NnjwSIPtRP-30" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="80" y="470" as="sourcePoint" />
+            <mxPoint x="660" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hIM_Yc48U5NnjwSIPtRP-32" value="Ciclo de vida del Software&lt;br&gt;Ingeniería de requerimientos&lt;br&gt;UML&lt;br&gt;MER-MR&lt;br&gt;Patrones arquitectónicos&lt;br&gt;Documentación&lt;br&gt;Metodologías tradicionales / ágiles" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="490" width="470" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
