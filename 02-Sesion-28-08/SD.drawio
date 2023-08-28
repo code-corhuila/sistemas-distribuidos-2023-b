@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T12:39:49.116Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="DGEjgQzLGooaNdbid1wO" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T12:41:52.591Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="I4Y5CjxppUgUFCb52Aco" version="21.6.9" type="github">
   <diagram name="Página-1" id="YggAasTu_5IIFEoiFt_R">
-    <mxGraphModel dx="1035" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1173" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -191,6 +191,9 @@
             <mxPoint x="713" y="986" as="sourcePoint" />
             <mxPoint x="753" y="946" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hIM_Yc48U5NnjwSIPtRP-55" value="Nota:&lt;br&gt;Establecer &lt;br&gt;Docker - Controles de despliegue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="528.19" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
