@@ -1,0 +1,34 @@
+Módulo de seguridad.
+--------------------
+Módulo para gestionar la seguridad de las aplicaciones.
+
+RF1: Gestión de personas 
+	{datos básicos}
+RF2: Gestión de usuarios
+	{usuario, contrasenia, Persona}
+RF3: Gestión de roles
+	{codigo, nombre, descripcion}
+RF4: Gestión de roles para un usuario.
+	{Role, Usuario}
+RF5: Gestión de vistas
+	{codigo, nombre, descripcion, etiqueta, ruta}
+RF6: Gestión de módulos
+	{codigo, nombre, descripcion}
+RF7: Gestión de vistas para un módulo.
+	{Modulo, Vista}
+RF8: Gestión de modulos para un rol.
+	{Modulo, Rol}
+
+RF9: Atributos genéricos para la gestión de auditoria.
+*state Boolean
+*createAt LocalDateTime
+*deleteAt LocalDateTime
+*updateAt LocalDateTime
+*userCreate Long
+*userDelete Long
+*userUpdate Long
+
+FR10: Eliminado lógico para todas las entidades, a excepción de casos debidamente documentados aplicar eliminado físico.
+
+=======================
+IEEE 830 -> SRS
