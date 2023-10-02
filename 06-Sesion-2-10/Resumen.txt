@@ -1,0 +1,41 @@
+Quiz
+Describa el concepto técnico y de un ejemplo. 
+1. ¿Qué es un Middleware?
+
+2. ¿Qué es un template engine?
+
+3. ¿Qué es un EndPoint, como usarlos?
+Es la ruta definida en el controlador, esta entrega la entrada a los servicios, puede ser de verbo get, put, delete, post, ....
+
+Es el punto de entrada al sistema mediante la API [get, put, ...]
+
+
+Justifique su respuesta: 
+
+4. Escriba la ruta de la API, consultar todo, llamada [producto], Este está en el servidor local bajo el puerto 9090 y tiene certificado SSL.
+
+https:127.0.0.1:9090/producto
+https:localhost:9090/producto
+y esta solicita data sobre el verbo get
+
+5. Describa para qué sirve cada paquete: [Entity, IRepository, IService, Service, Controller]
+	Entity: Representa las entidades del sistema. 
+	IRepository: Es un paquete de interfases que permiten heredar el repositorio de las funcionalidades del ORM según el lenguaje que se esté usando. [Qué - Manejo de data] 
+	IService: Qué debe hacer el servicio [Interfaz].
+	Service: 
+		Implementar la interfaz del IService.
+		*Implementa la lógica del negocio. Normalmente, implementa las interfases requeridas como mínimas para ese servicio, eso obliga que debe cumplir el 100% de la implementación de los métodos establecidos en cada interfaz. 
+	Controller: 
+		Establece el endpoint o ruta de salida, es decir, expone a una o n IP el servicio al que tiene acceso. 
+	
+	, IRepository, IService, Service, Controller
+
+6. Si la entidad Persona se extienda a la entidad auditoría, según los conceptos de tipo relación en UML, esta relación es de tipo: 
+	Es la herencia, y la entidad Persona adquiere todas las propiedades de la entidad Auditoría. [herencia].
+	
+=========================
+Si no está presente y no hay excusa válida, se pondrá actividad extra: Video explicando los conceptos 
+1. ¿Qué es un Middleware?
+2. ¿Qué es un template engine?
+
+Cero la actividad socializada.
