@@ -28,4 +28,35 @@ public class User {
     @JoinColumn(name = "person_id", nullable = false)
     public Person personId;
 
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getUser() {
+		return user;
+	}
+
+	public void setUser(String user) {
+		this.user = user;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public Person getPersonId() {
+		return personId;
+	}
+
+	public void setPersonId(Person personId) {
+		this.personId = personId;
+	}
 }

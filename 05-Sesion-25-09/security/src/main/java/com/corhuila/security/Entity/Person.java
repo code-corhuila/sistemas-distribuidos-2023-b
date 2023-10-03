@@ -15,9 +15,35 @@ public class Person {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	@Column(name = "first_name", length = 50)
-	private String firstname;
+	@Column(name = "name", length = 50)
+	private String name;
 	
 	@Column(name = "lastname", length = 50)
 	private String lastname;
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getLastname() {
+		return lastname;
+	}
+
+	public void setLastname(String lastname) {
+		this.lastname = lastname;
+	}
+	
+	
 }
