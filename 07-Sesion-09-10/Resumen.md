@@ -23,3 +23,14 @@ http://localhost:9090/v1/api/Person
 - Clase generica: state, createdAt, updatedAt, deletedAt
 
 Nota: De cada Continente, Pais, Departamento y Ciudad se conoce que tiene como atributos name, code y atributos de la clase generica. Aplicar herencia.
+
+======================
+* Entrega de código: 7:40.
+* Míercoles 11-10: CRUD
+
+======================
+# Diagrama de clases
+* Entrega de código: 7:40.
+======================
+# CRUD de security
+* Lunes 9-10: CRUD de security 23:59 

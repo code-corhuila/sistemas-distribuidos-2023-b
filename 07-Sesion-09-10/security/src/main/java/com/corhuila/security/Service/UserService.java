@@ -33,23 +33,22 @@ public class UserService implements IUserService {
 
 	@Override
 	public void update(User user, Long id) {
-		//validar si existe.		
+		//validar si existe.
 		
-		 Optional<User> op = iUserRepository.findById(user.getId());
+		Optional<User> op = iUserRepository.findById(id);
 
-	        if(op.isEmpty()){
-	            System.out.println("Dato no encontrado");
-	        }else{
-	            //Crear nuevo objeto que va a contener los datos que se van actualizar
-	            User userUpdate = op.get();
-	            userUpdate.setUser(user.getUser());
-	            userUpdate.setPassword(user.getPassword());
-	            userUpdate.setPersonId(user.getPersonId());
-	            
+        if(op.isEmpty()){
+            System.out.println("Dato no encontrado");
+        }else{
+            //Crear nuevo objeto que va a contener los datos que se van actualizar
+            User userUpdate = op.get();
+            userUpdate.setUser(user.getUser());
+            userUpdate.setPassword(user.getPassword());
+            
 
-	            //Actualizar el objeto
-	            iUserRepository.save(userUpdate);
-	        }
+            //Actualizar el objeto
+            iUserRepository.save(userUpdate);
+        }
 		
 	}
 
