@@ -44,6 +44,7 @@
 - User: u342060465_corte2
 - Base de Datos: u342060465_corte2
 - Password = 7tb@?6>kP
+- IP = 149.100.155.52
 
 ## Necesidadad
 ### Entidad vehículo con los siguientes campos "vehicle_document_student":
