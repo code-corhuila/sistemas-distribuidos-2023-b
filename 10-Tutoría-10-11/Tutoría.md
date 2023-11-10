@@ -24,7 +24,7 @@ public interface ILoginDto {
 
 # Paso 3: Definir el método en la interfaz del servicio.
 ```
-List<ILoginDto> getLogin2(String user, String password);
+List<ILoginDto> getLogin2(String user, String password) throws Exception;
 ```
 
 # Paso 4: Definir la implementación del método
